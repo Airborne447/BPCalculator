@@ -36,6 +36,8 @@ namespace Bandori_BP_Calculator
             BP5 = 0.0f;
             attr5 = "";
             band5 = "";
+            ATTR5 = "";
+            BND5 = "";
 
             if (mem5TextBox.Text == "")
             {
