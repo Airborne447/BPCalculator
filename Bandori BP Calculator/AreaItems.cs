@@ -169,5 +169,19 @@ namespace Bandori_BP_Calculator
         {
             Application.Exit();
         }
+
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            Member5 member5 = new Member5();
+            this.Hide();
+            member5.Show();
+        }
+
+        private void newbandButton_Click(object sender, EventArgs e)
+        {
+            Member1 member1 = new Member1(); //Instantiates Member1 Form - Brings them back to the start
+            this.Hide(); //Hides the AreaItems Form
+            member1.Show();
+        }
     }
 }

@@ -19,6 +19,13 @@ namespace Bandori_BP_Calculator
         float bandPower2;
         string band2, attr2;
 
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            Member1 member1 = new Member1(); //Instantiate Member1 Form
+            this.Hide(); //Hides Member1 Form
+            member1.Show(); //Shows Member1 Form
+        }
+
         public Member2()
         {
             InitializeComponent();

@@ -40,6 +40,7 @@
             this.mem4Band = new System.Windows.Forms.ComboBox();
             this.mem4Attr = new System.Windows.Forms.ComboBox();
             this.nextButton3 = new System.Windows.Forms.Button();
+            this.backButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -169,7 +170,7 @@
             // 
             // nextButton3
             // 
-            this.nextButton3.Location = new System.Drawing.Point(193, 277);
+            this.nextButton3.Location = new System.Drawing.Point(233, 277);
             this.nextButton3.Name = "nextButton3";
             this.nextButton3.Size = new System.Drawing.Size(75, 23);
             this.nextButton3.TabIndex = 3;
@@ -177,11 +178,22 @@
             this.nextButton3.UseVisualStyleBackColor = true;
             this.nextButton3.Click += new System.EventHandler(this.nextButton3_Click_1);
             // 
+            // backButton
+            // 
+            this.backButton.Location = new System.Drawing.Point(95, 277);
+            this.backButton.Name = "backButton";
+            this.backButton.Size = new System.Drawing.Size(75, 23);
+            this.backButton.TabIndex = 4;
+            this.backButton.Text = "Back";
+            this.backButton.UseVisualStyleBackColor = true;
+            this.backButton.Click += new System.EventHandler(this.backButton_Click);
+            // 
             // Member3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(463, 312);
+            this.Controls.Add(this.backButton);
             this.Controls.Add(this.nextButton3);
             this.Controls.Add(this.groupBox1);
             this.Name = "Member3";
@@ -206,5 +218,6 @@
         private System.Windows.Forms.ComboBox mem4Band;
         private System.Windows.Forms.ComboBox mem4Attr;
         private System.Windows.Forms.Button nextButton3;
+        private System.Windows.Forms.Button backButton;
     }
 }

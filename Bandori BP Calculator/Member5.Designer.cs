@@ -40,12 +40,13 @@
             this.mem5Stars = new System.Windows.Forms.ComboBox();
             this.mem5Band = new System.Windows.Forms.ComboBox();
             this.mem5Attr = new System.Windows.Forms.ComboBox();
+            this.backButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // nextButton5
             // 
-            this.nextButton5.Location = new System.Drawing.Point(193, 277);
+            this.nextButton5.Location = new System.Drawing.Point(233, 277);
             this.nextButton5.Name = "nextButton5";
             this.nextButton5.Size = new System.Drawing.Size(75, 23);
             this.nextButton5.TabIndex = 9;
@@ -177,11 +178,22 @@
             this.mem5Attr.Size = new System.Drawing.Size(121, 21);
             this.mem5Attr.TabIndex = 40;
             // 
+            // backButton
+            // 
+            this.backButton.Location = new System.Drawing.Point(95, 277);
+            this.backButton.Name = "backButton";
+            this.backButton.Size = new System.Drawing.Size(75, 23);
+            this.backButton.TabIndex = 10;
+            this.backButton.Text = "Back";
+            this.backButton.UseVisualStyleBackColor = true;
+            this.backButton.Click += new System.EventHandler(this.backButton_Click);
+            // 
             // Member5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(463, 312);
+            this.Controls.Add(this.backButton);
             this.Controls.Add(this.nextButton5);
             this.Controls.Add(this.groupBox1);
             this.Name = "Member5";
@@ -207,5 +219,6 @@
         private System.Windows.Forms.ComboBox mem5Stars;
         private System.Windows.Forms.ComboBox mem5Band;
         private System.Windows.Forms.ComboBox mem5Attr;
+        private System.Windows.Forms.Button backButton;
     }
 }
