@@ -8,9 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Bandori_BP_Calculator
+namespace Bandori_EP_BP_Calculator
 {
-    /*Done by Airborne447#9435 with help from Epicmouse#6870*/
     public partial class Member1 : Form
     {
         public static float BP1;
@@ -21,6 +20,13 @@ namespace Bandori_BP_Calculator
         public Member1()
         {
             InitializeComponent();
+        }
+
+        private void returnButton_Click(object sender, EventArgs e)
+        {
+            Welcome welcome = new Welcome();
+            welcome.Show();
+            this.Hide();
         }
 
         private void Form1_Load(object sender, EventArgs e)

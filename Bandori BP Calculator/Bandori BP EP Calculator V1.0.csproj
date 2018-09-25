@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{31DCB374-8D7A-442B-A4EA-05363E14B4F9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Bandori_BP_Calculator</RootNamespace>
-    <AssemblyName>Bandori BP Calculator</AssemblyName>
+    <RootNamespace>Bandori_EP_BP_Calculator</RootNamespace>
+    <AssemblyName>Bandori BP EP Calculator</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -73,61 +73,76 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AreaItems.cs">
+    <Compile Include="BP Calculator Forms\AreaItems.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AreaItems.Designer.cs">
+    <Compile Include="BP Calculator Forms\AreaItems.Designer.cs">
       <DependentUpon>AreaItems.cs</DependentUpon>
     </Compile>
-    <Compile Include="Member1.cs">
+    <Compile Include="BP Calculator Forms\Member1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Member1.Designer.cs">
+    <Compile Include="BP Calculator Forms\Member1.Designer.cs">
       <DependentUpon>Member1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Member2.cs">
+    <Compile Include="BP Calculator Forms\Member2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Member2.Designer.cs">
+    <Compile Include="BP Calculator Forms\Member2.Designer.cs">
       <DependentUpon>Member2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Member3.cs">
+    <Compile Include="BP Calculator Forms\Member3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Member3.Designer.cs">
+    <Compile Include="BP Calculator Forms\Member3.Designer.cs">
       <DependentUpon>Member3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Member4.cs">
+    <Compile Include="BP Calculator Forms\Member4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Member4.Designer.cs">
+    <Compile Include="BP Calculator Forms\Member4.Designer.cs">
       <DependentUpon>Member4.cs</DependentUpon>
     </Compile>
-    <Compile Include="Member5.cs">
+    <Compile Include="BP Calculator Forms\Member5.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Member5.Designer.cs">
+    <Compile Include="BP Calculator Forms\Member5.Designer.cs">
       <DependentUpon>Member5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EP Calculator Forms\EPCalculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EP Calculator Forms\EPCalculator.designer.cs">
+      <DependentUpon>EPCalculator.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AreaItems.resx">
+    <Compile Include="Startup Form\Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Startup Form\Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BP Calculator Forms\AreaItems.resx">
       <DependentUpon>AreaItems.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Member1.resx">
+    <EmbeddedResource Include="BP Calculator Forms\Member1.resx">
       <DependentUpon>Member1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Member2.resx">
+    <EmbeddedResource Include="BP Calculator Forms\Member2.resx">
       <DependentUpon>Member2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Member3.resx">
+    <EmbeddedResource Include="BP Calculator Forms\Member3.resx">
       <DependentUpon>Member3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Member4.resx">
+    <EmbeddedResource Include="BP Calculator Forms\Member4.resx">
       <DependentUpon>Member4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Member5.resx">
+    <EmbeddedResource Include="BP Calculator Forms\Member5.resx">
       <DependentUpon>Member5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EP Calculator Forms\EPCalculator.resx">
+      <DependentUpon>EPCalculator.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -137,7 +152,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Startup Form\Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Bandori BP Calculator Mk2_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

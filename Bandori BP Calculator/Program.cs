@@ -4,9 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Bandori_BP_Calculator
+namespace Bandori_EP_BP_Calculator
 {
-    /*Done by Airborne447#9435 with help from Epicmouse#6870*/
     static class Program
     {
         /// <summary>
@@ -17,7 +16,7 @@ namespace Bandori_BP_Calculator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Member1());
+            Application.Run(new Welcome());
         }
     }
 }

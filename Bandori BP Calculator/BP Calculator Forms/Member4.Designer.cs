@@ -1,6 +1,6 @@
-﻿namespace Bandori_BP_Calculator
+﻿namespace Bandori_EP_BP_Calculator
 {
-    partial class Member5
+    partial class Member4
     {
         /// <summary>
         /// Required designer variable.
@@ -28,51 +28,41 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.nextButton5 = new System.Windows.Forms.Button();
-            this.mem5Story2 = new System.Windows.Forms.CheckBox();
-            this.mem5Story1 = new System.Windows.Forms.CheckBox();
+            this.mem4Story2 = new System.Windows.Forms.CheckBox();
+            this.mem4Story1 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.mem5TextBox = new System.Windows.Forms.TextBox();
+            this.mem4TextBox = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.mem5Stars = new System.Windows.Forms.ComboBox();
-            this.mem5Band = new System.Windows.Forms.ComboBox();
-            this.mem5Attr = new System.Windows.Forms.ComboBox();
+            this.mem4Stars = new System.Windows.Forms.ComboBox();
+            this.mem4Band = new System.Windows.Forms.ComboBox();
+            this.mem4Attr = new System.Windows.Forms.ComboBox();
+            this.nextButton4 = new System.Windows.Forms.Button();
             this.backButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // nextButton5
+            // mem4Story2
             // 
-            this.nextButton5.Location = new System.Drawing.Point(233, 277);
-            this.nextButton5.Name = "nextButton5";
-            this.nextButton5.Size = new System.Drawing.Size(75, 23);
-            this.nextButton5.TabIndex = 9;
-            this.nextButton5.Text = "Next";
-            this.nextButton5.UseVisualStyleBackColor = true;
-            this.nextButton5.Click += new System.EventHandler(this.nextButton5_Click);
+            this.mem4Story2.AutoSize = true;
+            this.mem4Story2.Location = new System.Drawing.Point(302, 24);
+            this.mem4Story2.Name = "mem4Story2";
+            this.mem4Story2.Size = new System.Drawing.Size(119, 17);
+            this.mem4Story2.TabIndex = 11;
+            this.mem4Story2.Text = "Read Second Story";
+            this.mem4Story2.UseVisualStyleBackColor = true;
             // 
-            // mem5Story2
+            // mem4Story1
             // 
-            this.mem5Story2.AutoSize = true;
-            this.mem5Story2.Location = new System.Drawing.Point(302, 24);
-            this.mem5Story2.Name = "mem5Story2";
-            this.mem5Story2.Size = new System.Drawing.Size(119, 17);
-            this.mem5Story2.TabIndex = 11;
-            this.mem5Story2.Text = "Read Second Story";
-            this.mem5Story2.UseVisualStyleBackColor = true;
-            // 
-            // mem5Story1
-            // 
-            this.mem5Story1.AutoSize = true;
-            this.mem5Story1.Location = new System.Drawing.Point(195, 24);
-            this.mem5Story1.Name = "mem5Story1";
-            this.mem5Story1.Size = new System.Drawing.Size(101, 17);
-            this.mem5Story1.TabIndex = 10;
-            this.mem5Story1.Text = "Read First Story";
-            this.mem5Story1.UseVisualStyleBackColor = true;
+            this.mem4Story1.AutoSize = true;
+            this.mem4Story1.Location = new System.Drawing.Point(195, 24);
+            this.mem4Story1.Name = "mem4Story1";
+            this.mem4Story1.Size = new System.Drawing.Size(101, 17);
+            this.mem4Story1.TabIndex = 10;
+            this.mem4Story1.Text = "Read First Story";
+            this.mem4Story1.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -81,33 +71,33 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(66, 13);
             this.label1.TabIndex = 5;
-            this.label1.Text = "5th Member:";
+            this.label1.Text = "4th Member:";
             // 
-            // mem5TextBox
+            // mem4TextBox
             // 
-            this.mem5TextBox.Location = new System.Drawing.Point(83, 22);
-            this.mem5TextBox.Name = "mem5TextBox";
-            this.mem5TextBox.Size = new System.Drawing.Size(100, 20);
-            this.mem5TextBox.TabIndex = 0;
+            this.mem4TextBox.Location = new System.Drawing.Point(83, 22);
+            this.mem4TextBox.Name = "mem4TextBox";
+            this.mem4TextBox.Size = new System.Drawing.Size(100, 20);
+            this.mem4TextBox.TabIndex = 0;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.mem5Stars);
-            this.groupBox1.Controls.Add(this.mem5Band);
-            this.groupBox1.Controls.Add(this.mem5Story2);
-            this.groupBox1.Controls.Add(this.mem5Attr);
-            this.groupBox1.Controls.Add(this.mem5Story1);
+            this.groupBox1.Controls.Add(this.mem4Stars);
+            this.groupBox1.Controls.Add(this.mem4Band);
+            this.groupBox1.Controls.Add(this.mem4Story2);
+            this.groupBox1.Controls.Add(this.mem4Attr);
+            this.groupBox1.Controls.Add(this.mem4Story1);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.mem5TextBox);
+            this.groupBox1.Controls.Add(this.mem4TextBox);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(428, 169);
-            this.groupBox1.TabIndex = 8;
+            this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "5th Member Band Power Values";
+            this.groupBox1.Text = "4th Member Band Power Values";
             // 
             // label2
             // 
@@ -136,69 +126,79 @@
             this.label4.TabIndex = 44;
             this.label4.Text = "Stars";
             // 
-            // mem5Stars
+            // mem4Stars
             // 
-            this.mem5Stars.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.mem5Stars.FormattingEnabled = true;
-            this.mem5Stars.Items.AddRange(new object[] {
+            this.mem4Stars.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.mem4Stars.FormattingEnabled = true;
+            this.mem4Stars.Items.AddRange(new object[] {
             "4",
             "3",
             "2"});
-            this.mem5Stars.Location = new System.Drawing.Point(83, 52);
-            this.mem5Stars.Name = "mem5Stars";
-            this.mem5Stars.Size = new System.Drawing.Size(56, 21);
-            this.mem5Stars.TabIndex = 41;
+            this.mem4Stars.Location = new System.Drawing.Point(83, 52);
+            this.mem4Stars.Name = "mem4Stars";
+            this.mem4Stars.Size = new System.Drawing.Size(56, 21);
+            this.mem4Stars.TabIndex = 41;
             // 
-            // mem5Band
+            // mem4Band
             // 
-            this.mem5Band.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.mem5Band.FormattingEnabled = true;
-            this.mem5Band.Items.AddRange(new object[] {
+            this.mem4Band.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.mem4Band.FormattingEnabled = true;
+            this.mem4Band.Items.AddRange(new object[] {
             "Poppin\' Party",
             "Afterglow",
             "Pastel*Palettes",
             "Roselia",
             "Hello, Happy World!"});
-            this.mem5Band.Location = new System.Drawing.Point(83, 106);
-            this.mem5Band.Name = "mem5Band";
-            this.mem5Band.Size = new System.Drawing.Size(173, 21);
-            this.mem5Band.TabIndex = 39;
+            this.mem4Band.Location = new System.Drawing.Point(83, 106);
+            this.mem4Band.Name = "mem4Band";
+            this.mem4Band.Size = new System.Drawing.Size(173, 21);
+            this.mem4Band.TabIndex = 39;
             // 
-            // mem5Attr
+            // mem4Attr
             // 
-            this.mem5Attr.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.mem5Attr.FormattingEnabled = true;
-            this.mem5Attr.Items.AddRange(new object[] {
+            this.mem4Attr.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.mem4Attr.FormattingEnabled = true;
+            this.mem4Attr.Items.AddRange(new object[] {
             "Pure",
             "Power",
             "Happy",
             "Cool"});
-            this.mem5Attr.Location = new System.Drawing.Point(83, 79);
-            this.mem5Attr.Name = "mem5Attr";
-            this.mem5Attr.Size = new System.Drawing.Size(121, 21);
-            this.mem5Attr.TabIndex = 40;
+            this.mem4Attr.Location = new System.Drawing.Point(83, 79);
+            this.mem4Attr.Name = "mem4Attr";
+            this.mem4Attr.Size = new System.Drawing.Size(121, 21);
+            this.mem4Attr.TabIndex = 40;
+            // 
+            // nextButton4
+            // 
+            this.nextButton4.Location = new System.Drawing.Point(233, 277);
+            this.nextButton4.Name = "nextButton4";
+            this.nextButton4.Size = new System.Drawing.Size(75, 23);
+            this.nextButton4.TabIndex = 7;
+            this.nextButton4.Text = "Next";
+            this.nextButton4.UseVisualStyleBackColor = true;
+            this.nextButton4.Click += new System.EventHandler(this.nextButton4_Click);
             // 
             // backButton
             // 
             this.backButton.Location = new System.Drawing.Point(95, 277);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(75, 23);
-            this.backButton.TabIndex = 10;
+            this.backButton.TabIndex = 8;
             this.backButton.Text = "Back";
             this.backButton.UseVisualStyleBackColor = true;
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
-            // Member5
+            // Member4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(463, 312);
             this.Controls.Add(this.backButton);
-            this.Controls.Add(this.nextButton5);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Member5";
+            this.Controls.Add(this.nextButton4);
+            this.Name = "Member4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Member 5";
+            this.Text = "Member 4";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -207,18 +207,18 @@
 
         #endregion
 
-        private System.Windows.Forms.Button nextButton5;
-        private System.Windows.Forms.CheckBox mem5Story2;
-        private System.Windows.Forms.CheckBox mem5Story1;
+        private System.Windows.Forms.CheckBox mem4Story2;
+        private System.Windows.Forms.CheckBox mem4Story1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox mem5TextBox;
+        private System.Windows.Forms.TextBox mem4TextBox;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox mem5Stars;
-        private System.Windows.Forms.ComboBox mem5Band;
-        private System.Windows.Forms.ComboBox mem5Attr;
+        private System.Windows.Forms.ComboBox mem4Stars;
+        private System.Windows.Forms.ComboBox mem4Band;
+        private System.Windows.Forms.ComboBox mem4Attr;
+        private System.Windows.Forms.Button nextButton4;
         private System.Windows.Forms.Button backButton;
     }
 }

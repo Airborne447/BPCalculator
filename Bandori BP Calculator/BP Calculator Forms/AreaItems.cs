@@ -8,12 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Bandori_BP_Calculator
+namespace Bandori_EP_BP_Calculator
 {
     public partial class AreaItems : Form
     {
-        /*Done by Airborne447#9435 with help from Epicmouse#6870*/
-
         Member1 mem1 = new Member1();
         Member2 mem2 = new Member2();
         Member3 mem3 = new Member3();
@@ -32,7 +30,8 @@ namespace Bandori_BP_Calculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            float TotalBP = 0.0f; //Total BP
+            int TotalBP = 0;
+            float TotalBP1 = 0.0f; //Total BP
             float fltBand1, fltBand2, fltAttr; //Band1 = Instruments, Band2 = Flyers/Poster, Attr = Attribute
             string strBand1, strBand2, strAttr; 
 
@@ -154,7 +153,8 @@ namespace Bandori_BP_Calculator
                 Bonus5 = Bonus5 + fltAttr;
             }
 
-            TotalBP = (Member1.BP1 * ((100 + Bonus1) / 100)) + (Member2.BP2 * ((100 + Bonus2) / 100)) + (Member3.BP3 * ((100 + Bonus3) / 100)) + (Member4.BP4 * ((100 + Bonus4) / 100)) + (Member5.BP5 * ((100 + Bonus5) / 100));
+            TotalBP1 = (Member1.BP1 * ((100 + Bonus1) / 100)) + (Member2.BP2 * ((100 + Bonus2) / 100)) + (Member3.BP3 * ((100 + Bonus3) / 100)) + (Member4.BP4 * ((100 + Bonus4) / 100)) + (Member5.BP5 * ((100 + Bonus5) / 100));
+            TotalBP = (int)Math.Floor(TotalBP1);
 
             outputLabel.Text = "The total BP of your five members is: " + TotalBP.ToString() +
                                "\n\nYour Inputs were: " +

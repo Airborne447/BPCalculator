@@ -1,4 +1,4 @@
-﻿namespace Bandori_BP_Calculator
+﻿namespace Bandori_EP_BP_Calculator
 {
     partial class AreaItems
     {
